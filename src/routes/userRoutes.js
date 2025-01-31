@@ -3,7 +3,7 @@ import cors from "cors"
 import { criarNovoUser, logarUsers } from "../controller/usersController.js"
 
 const corsOptions = {
-    origin:"https://login-front-end-eight.vercel.app",
+    origin:"http://localhost:5173",
     optionsSuccessStatus: 200
 }
 
